@@ -1,6 +1,6 @@
 install:
 	cargo build --release
-	cp ./target/release/tmux-cli ~/.local/bin/
+	cp ./target/release/main ~/.local/bin/tmux-cli
 
 clean-install:
 	rm ~/.local/bin/tmux-cli
